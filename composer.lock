@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5ab3ab94b4447c065adfd83fdebb64b",
+    "content-hash": "aff51e798ae0f729b27924031100477e",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.111.1",
+            "version": "3.112.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "08d3993286be11009809295e0ebfc7b909294dcc"
+                "reference": "5167704e39f4e139152906b3d962aa15692bff07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/08d3993286be11009809295e0ebfc7b909294dcc",
-                "reference": "08d3993286be11009809295e0ebfc7b909294dcc",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5167704e39f4e139152906b3d962aa15692bff07",
+                "reference": "5167704e39f4e139152906b3d962aa15692bff07",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-09-10T18:12:46+00:00"
+            "time": "2019-09-24T18:13:32+00:00"
         },
         {
             "name": "barryvdh/laravel-cors",
@@ -889,16 +889,16 @@
         },
         {
             "name": "dreamfactory/df-admin-app",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-admin-app.git",
-                "reference": "619e2b6a566a9ca915d0c721a8e26e05aa2a77a5"
+                "reference": "0ce730f762015718c75d83fb526a41d4d7f067e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/619e2b6a566a9ca915d0c721a8e26e05aa2a77a5",
-                "reference": "619e2b6a566a9ca915d0c721a8e26e05aa2a77a5",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/0ce730f762015718c75d83fb526a41d4d7f067e3",
+                "reference": "0ce730f762015718c75d83fb526a41d4d7f067e3",
                 "shasum": ""
             },
             "require": {
@@ -933,7 +933,7 @@
                 "remote web services",
                 "rest"
             ],
-            "time": "2019-09-05T15:46:32+00:00"
+            "time": "2019-09-13T13:27:47+00:00"
         },
         {
             "name": "dreamfactory/df-api-docs-ui",
@@ -1732,12 +1732,12 @@
             "version": "0.7.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dreamfactorysoftware/df-firebird.git",
+                "url": "https://github.com/yaroslavmo/df-firebird.git",
                 "reference": "b4b9731f6f5adad33f2fb890cc199e4eb15578e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-firebird/zipball/b4b9731f6f5adad33f2fb890cc199e4eb15578e5",
+                "url": "https://api.github.com/repos/yaroslavmo/df-firebird/zipball/b4b9731f6f5adad33f2fb890cc199e4eb15578e5",
                 "reference": "b4b9731f6f5adad33f2fb890cc199e4eb15578e5",
                 "shasum": ""
             },
@@ -2099,12 +2099,12 @@
             "version": "0.16.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dreamfactorysoftware/df-sqldb.git",
+                "url": "https://github.com/yaroslavmo/df-sqldb.git",
                 "reference": "5dcbf93468f4093813cb264b8e4a639eda351687"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-sqldb/zipball/5dcbf93468f4093813cb264b8e4a639eda351687",
+                "url": "https://api.github.com/repos/yaroslavmo/df-sqldb/zipball/5dcbf93468f4093813cb264b8e4a639eda351687",
                 "reference": "5dcbf93468f4093813cb264b8e4a639eda351687",
                 "shasum": ""
             },
@@ -2156,6 +2156,73 @@
                 "sqlserver"
             ],
             "time": "2019-07-18T13:06:59+00:00"
+        },
+        {
+            "name": "dreamfactory/df-sqlsrv",
+            "version": "0.15.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yaroslavmo/df-sqlsrv.git",
+                "reference": "215c3ea4b110f0cec5a6a85a2fbb1114394d6942"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yaroslavmo/df-sqlsrv/zipball/215c3ea4b110f0cec5a6a85a2fbb1114394d6942",
+                "reference": "215c3ea4b110f0cec5a6a85a2fbb1114394d6942",
+                "shasum": ""
+            },
+            "require": {
+                "dreamfactory/df-sqldb": "~0.16.0",
+                "leaseweb/doctrine-pdo-dblib": "~1.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.15.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "DreamFactory\\Core\\SqlSrv\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DreamFactory\\Core\\SqlSrv\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Arif Islam",
+                    "email": "arifislam@dreamfactory.com"
+                },
+                {
+                    "name": "Lee Hicks",
+                    "email": "leehicks@dreamfactory.com"
+                }
+            ],
+            "description": "The DreamFactory(tm) SQL Server DB Service.",
+            "homepage": "https://www.dreamfactory.com/",
+            "keywords": [
+                "api",
+                "database",
+                "db",
+                "dreamfactory",
+                "rest",
+                "sql",
+                "sql server",
+                "sqlsrv"
+            ],
+            "support": {
+                "email": "dspsupport@dreamfactory.com",
+                "source": "https://github.com/dreamfactorysoftware/df-sqlsrv",
+                "issues": "https://github.com/dreamfactorysoftware/df-sqlsrv/issues",
+                "wiki": "https://wiki.dreamfactory.com"
+            },
+            "time": "2019-07-16T11:08:57+00:00"
         },
         {
             "name": "dreamfactory/df-system",
@@ -3691,16 +3758,16 @@
         },
         {
             "name": "league/flysystem-sftp",
-            "version": "1.0.20",
+            "version": "1.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem-sftp.git",
-                "reference": "518ac7dc9e80ca55ab6c3cebc8bccb4c2a5af302"
+                "reference": "4c2f2fcc4da251127c315d37eb3dfa5e94658df0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-sftp/zipball/518ac7dc9e80ca55ab6c3cebc8bccb4c2a5af302",
-                "reference": "518ac7dc9e80ca55ab6c3cebc8bccb4c2a5af302",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-sftp/zipball/4c2f2fcc4da251127c315d37eb3dfa5e94658df0",
+                "reference": "4c2f2fcc4da251127c315d37eb3dfa5e94658df0",
                 "shasum": ""
             },
             "require": {
@@ -3729,7 +3796,7 @@
                 }
             ],
             "description": "Flysystem adapter for SFTP",
-            "time": "2019-06-07T20:54:19+00:00"
+            "time": "2019-09-19T09:11:05+00:00"
         },
         {
             "name": "league/flysystem-webdav",
@@ -3840,6 +3907,65 @@
                 "twitter"
             ],
             "time": "2016-08-17T00:36:58+00:00"
+        },
+        {
+            "name": "leaseweb/doctrine-pdo-dblib",
+            "version": "1.1.0",
+            "target-dir": "Lsw/DoctrinePdoDblib",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LeaseWeb/LswDoctrinePdoDblib.git",
+                "reference": "b09fa3f250d7115e065046f5901199683f536d79"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LeaseWeb/LswDoctrinePdoDblib/zipball/b09fa3f250d7115e065046f5901199683f536d79",
+                "reference": "b09fa3f250d7115e065046f5901199683f536d79",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/dbal": ">=2.1.0",
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Lsw\\DoctrinePdoDblib": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maurits van der Schee",
+                    "email": "m.vanderschee@leaseweb.com"
+                },
+                {
+                    "name": "Tyler Rooney",
+                    "email": "tyler@tylerrooney.ca"
+                },
+                {
+                    "name": "Razvan Tudorica",
+                    "email": "r.tudorica@ocom.com"
+                }
+            ],
+            "description": "Library for support of the pdo_dblib (MSSQL) driver in Doctrine",
+            "homepage": "http://www.leaseweblabs.com",
+            "keywords": [
+                "dblib",
+                "doctrine",
+                "mssql",
+                "pdo",
+                "pdo_dblib"
+            ],
+            "time": "2016-08-11T07:03:01+00:00"
         },
         {
             "name": "m4tthumphrey/php-gitlab-api",
@@ -4922,16 +5048,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.21",
+            "version": "2.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "9f1287e68b3f283339a9f98f67515dd619e5bf9d"
+                "reference": "c78eb5058d5bb1a183133c36d4ba5b6675dfa099"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/9f1287e68b3f283339a9f98f67515dd619e5bf9d",
-                "reference": "9f1287e68b3f283339a9f98f67515dd619e5bf9d",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/c78eb5058d5bb1a183133c36d4ba5b6675dfa099",
+                "reference": "c78eb5058d5bb1a183133c36d4ba5b6675dfa099",
                 "shasum": ""
             },
             "require": {
@@ -5010,7 +5136,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2019-07-12T12:53:49+00:00"
+            "time": "2019-09-17T03:41:22+00:00"
         },
         {
             "name": "predis/predis",
@@ -7641,35 +7767,35 @@
         },
         {
             "name": "tymon/jwt-auth",
-            "version": "1.0.0-rc.4.1",
+            "version": "1.0.0-rc.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tymondesigns/jwt-auth.git",
-                "reference": "63698d304554e5d0bc3eb481cc260a9fc900e151"
+                "reference": "103739700dc0358039a33b5bc91247570bb83529"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tymondesigns/jwt-auth/zipball/63698d304554e5d0bc3eb481cc260a9fc900e151",
-                "reference": "63698d304554e5d0bc3eb481cc260a9fc900e151",
+                "url": "https://api.github.com/repos/tymondesigns/jwt-auth/zipball/103739700dc0358039a33b5bc91247570bb83529",
+                "reference": "103739700dc0358039a33b5bc91247570bb83529",
                 "shasum": ""
             },
             "require": {
-                "illuminate/auth": "^5.1",
-                "illuminate/contracts": "^5.1",
-                "illuminate/http": "^5.1",
-                "illuminate/support": "^5.1",
+                "illuminate/auth": "^5.1|^6",
+                "illuminate/contracts": "^5.1|^6",
+                "illuminate/http": "^5.1|^6",
+                "illuminate/support": "^5.1|^6",
                 "lcobucci/jwt": "^3.2",
                 "namshi/jose": "^7.0",
-                "nesbot/carbon": "^1.0 || ^2.0",
-                "php": "^5.5.9 || ^7.0"
+                "nesbot/carbon": "^1.0|^2.0",
+                "php": "^5.5.9|^7.0"
             },
             "require-dev": {
-                "cartalyst/sentinel": "2.0.*",
-                "illuminate/console": "^5.1",
-                "illuminate/database": "^5.1",
-                "illuminate/routing": "^5.1",
+                "cartalyst/sentinel": "^2|^3",
+                "illuminate/console": "^5.1|^6",
+                "illuminate/database": "^5.1|^6",
+                "illuminate/routing": "^5.1|^6",
                 "mockery/mockery": ">=0.9.9",
-                "phpunit/phpunit": "~4.8 || ~6.0"
+                "phpunit/phpunit": "~4.8|~6.0"
             },
             "type": "library",
             "extra": {
@@ -7712,7 +7838,7 @@
                 "jwt",
                 "laravel"
             ],
-            "time": "2019-03-14T20:29:20+00:00"
+            "time": "2019-09-09T03:33:47+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -8887,35 +9013,33 @@
         },
         {
             "name": "phpdocumentor/reflection-common",
-            "version": "1.0.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
-                "reference": "21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6"
+                "reference": "63a995caa1ca9e5590304cd845c15ad6d482a62a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6",
-                "reference": "21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/63a995caa1ca9e5590304cd845c15ad6d482a62a",
+                "reference": "63a995caa1ca9e5590304cd845c15ad6d482a62a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5"
+                "php": ">=7.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.6"
+                "phpunit/phpunit": "~6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "phpDocumentor\\Reflection\\": [
-                        "src"
-                    ]
+                    "phpDocumentor\\Reflection\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -8937,30 +9061,30 @@
                 "reflection",
                 "static analysis"
             ],
-            "time": "2017-09-11T18:02:19+00:00"
+            "time": "2018-08-07T13:53:10+00:00"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "4.3.1",
+            "version": "4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "bdd9f737ebc2a01c06ea7ff4308ec6697db9b53c"
+                "reference": "b83ff7cfcfee7827e1e78b637a5904fe6a96698e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/bdd9f737ebc2a01c06ea7ff4308ec6697db9b53c",
-                "reference": "bdd9f737ebc2a01c06ea7ff4308ec6697db9b53c",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/b83ff7cfcfee7827e1e78b637a5904fe6a96698e",
+                "reference": "b83ff7cfcfee7827e1e78b637a5904fe6a96698e",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0",
-                "phpdocumentor/reflection-common": "^1.0.0",
-                "phpdocumentor/type-resolver": "^0.4.0",
+                "phpdocumentor/reflection-common": "^1.0.0 || ^2.0.0",
+                "phpdocumentor/type-resolver": "~0.4 || ^1.0.0",
                 "webmozart/assert": "^1.0"
             },
             "require-dev": {
-                "doctrine/instantiator": "~1.0.5",
+                "doctrine/instantiator": "^1.0.5",
                 "mockery/mockery": "^1.0",
                 "phpunit/phpunit": "^6.4"
             },
@@ -8988,41 +9112,40 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2019-04-30T17:48:53+00:00"
+            "time": "2019-09-12T14:27:41+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "0.4.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7"
+                "reference": "2e32a6d48972b2c1976ed5d8967145b6cec4a4a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/9c977708995954784726e25d0cd1dddf4e65b0f7",
-                "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/2e32a6d48972b2c1976ed5d8967145b6cec4a4a9",
+                "reference": "2e32a6d48972b2c1976ed5d8967145b6cec4a4a9",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5 || ^7.0",
-                "phpdocumentor/reflection-common": "^1.0"
+                "php": "^7.1",
+                "phpdocumentor/reflection-common": "^2.0"
             },
             "require-dev": {
-                "mockery/mockery": "^0.9.4",
-                "phpunit/phpunit": "^5.2||^4.8.24"
+                "ext-tokenizer": "^7.1",
+                "mockery/mockery": "~1",
+                "phpunit/phpunit": "^7.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "phpDocumentor\\Reflection\\": [
-                        "src/"
-                    ]
+                    "phpDocumentor\\Reflection\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -9035,7 +9158,8 @@
                     "email": "me@mikevanriel.com"
                 }
             ],
-            "time": "2017-07-14T14:27:02+00:00"
+            "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
+            "time": "2019-08-22T18:11:29+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -9706,16 +9830,16 @@
         },
         {
             "name": "sebastian/exporter",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "06a9a5947f47b3029d76118eb5c22802e5869687"
+                "reference": "68609e1261d215ea5b21b7987539cbfbe156ec3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/06a9a5947f47b3029d76118eb5c22802e5869687",
-                "reference": "06a9a5947f47b3029d76118eb5c22802e5869687",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/68609e1261d215ea5b21b7987539cbfbe156ec3e",
+                "reference": "68609e1261d215ea5b21b7987539cbfbe156ec3e",
                 "shasum": ""
             },
             "require": {
@@ -9769,7 +9893,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2019-08-11T12:43:14+00:00"
+            "time": "2019-09-14T09:02:43+00:00"
         },
         {
             "name": "sebastian/global-state",
@@ -10228,8 +10352,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "role": "Developer",
-                    "email": "arne@blankerts.de"
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
