@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "025148168fdf9063a7b0b2fd3a59fe72",
+    "content-hash": "aff51e798ae0f729b27924031100477e",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -959,7 +959,6 @@
                 },
                 "installer-name": "df-api-docs-ui"
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -978,6 +977,12 @@
                 "rest",
                 "swagger"
             ],
+            "support": {
+                "source": "https://github.com/dreamfactorysoftware/df-api-docs-ui",
+                "issues": "https://github.com/dreamfactorysoftware/df-api-docs-ui/issues",
+                "email": "dspsupport@dreamfactory.com",
+                "wiki": "https://wiki.dreamfactory.com"
+            },
             "time": "2019-07-15T20:38:26+00:00"
         },
         {
@@ -1679,16 +1684,16 @@
         },
         {
             "name": "dreamfactory/df-filemanager-app",
-            "version": "1.4.1",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-filemanager-app.git",
-                "reference": "c7ef02dbe5f991fd0143ec1c1dd7b83c316920ae"
+                "reference": "8f51a758995f6e5e45cc6c47cdff32bff191a8a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-filemanager-app/zipball/c7ef02dbe5f991fd0143ec1c1dd7b83c316920ae",
-                "reference": "c7ef02dbe5f991fd0143ec1c1dd7b83c316920ae",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-filemanager-app/zipball/8f51a758995f6e5e45cc6c47cdff32bff191a8a8",
+                "reference": "8f51a758995f6e5e45cc6c47cdff32bff191a8a8",
                 "shasum": ""
             },
             "require": {
@@ -1697,7 +1702,7 @@
             "type": "dreamfactory-app",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "0.1.x-dev"
+                    "dev-develop": "0.3.x-dev"
                 },
                 "installer-name": "filemanager"
             },
@@ -1708,7 +1713,7 @@
             "authors": [
                 {
                     "name": "DreamFactory Software, Inc.",
-                    "email": "support@dreamfactory.com",
+                    "email": "dspsupport@dreamfactory.com",
                     "role": "Developer"
                 }
             ],
@@ -1720,7 +1725,7 @@
                 "file manager",
                 "rest"
             ],
-            "time": "2017-06-08T14:30:21+00:00"
+            "time": "2017-11-07T19:29:49+00:00"
         },
         {
             "name": "dreamfactory/df-firebird",
@@ -1755,17 +1760,18 @@
                     "DreamFactory\\Core\\Firebird\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
             "authors": [
                 {
-                    "name": "Arif Islam",
-                    "email": "arifislam@dreamfactory.com"
-                },
-                {
                     "name": "Lee Hicks",
                     "email": "leehicks@dreamfactory.com"
+                },
+                {
+                    "name": "Arif Islam",
+                    "email": "arifislam@dreamfactory.com"
                 }
             ],
             "description": "Firebird SQL Database support for DreamFactory",
@@ -1778,12 +1784,6 @@
                 "pdo_interbase",
                 "sql"
             ],
-            "support": {
-                "email": "dspsupport@dreamfactory.com",
-                "source": "https://github.com/dreamfactorysoftware/df-firebird",
-                "issues": "https://github.com/dreamfactorysoftware/df-firebird/issues",
-                "wiki": "https://wiki.dreamfactory.com"
-            },
             "time": "2019-07-16T11:20:04+00:00"
         },
         {
@@ -2127,17 +2127,18 @@
                     "DreamFactory\\Core\\SqlDb\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
             "authors": [
                 {
-                    "name": "Arif Islam",
-                    "email": "arifislam@dreamfactory.com"
-                },
-                {
                     "name": "Lee Hicks",
                     "email": "leehicks@dreamfactory.com"
+                },
+                {
+                    "name": "Arif Islam",
+                    "email": "arifislam@dreamfactory.com"
                 }
             ],
             "description": "The DreamFactory(tm) SQL DB Service.",
@@ -2154,12 +2155,6 @@
                 "sql",
                 "sqlserver"
             ],
-            "support": {
-                "email": "dspsupport@dreamfactory.com",
-                "source": "https://github.com/dreamfactorysoftware/df-sqldb",
-                "issues": "https://github.com/dreamfactorysoftware/df-sqldb/issues",
-                "wiki": "https://wiki.dreamfactory.com"
-            },
             "time": "2019-07-18T13:06:59+00:00"
         },
         {
@@ -5860,9 +5855,9 @@
             "authors": [
                 {
                     "name": "Evert Pot",
-                    "role": "Developer",
                     "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/"
+                    "homepage": "http://evertpot.com/",
+                    "role": "Developer"
                 }
             ],
             "description": "sabre/event is a library for lightweight event-based programming",
