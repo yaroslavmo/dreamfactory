@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aff51e798ae0f729b27924031100477e",
+    "content-hash": "c6f106283d6eb2c25d823689d292d960",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -959,6 +959,7 @@
                 },
                 "installer-name": "df-api-docs-ui"
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -977,12 +978,6 @@
                 "rest",
                 "swagger"
             ],
-            "support": {
-                "source": "https://github.com/dreamfactorysoftware/df-api-docs-ui",
-                "issues": "https://github.com/dreamfactorysoftware/df-api-docs-ui/issues",
-                "email": "dspsupport@dreamfactory.com",
-                "wiki": "https://wiki.dreamfactory.com"
-            },
             "time": "2019-07-15T20:38:26+00:00"
         },
         {
@@ -1760,18 +1755,17 @@
                     "DreamFactory\\Core\\Firebird\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
             "authors": [
                 {
-                    "name": "Lee Hicks",
-                    "email": "leehicks@dreamfactory.com"
-                },
-                {
                     "name": "Arif Islam",
                     "email": "arifislam@dreamfactory.com"
+                },
+                {
+                    "name": "Lee Hicks",
+                    "email": "leehicks@dreamfactory.com"
                 }
             ],
             "description": "Firebird SQL Database support for DreamFactory",
@@ -1784,6 +1778,12 @@
                 "pdo_interbase",
                 "sql"
             ],
+            "support": {
+                "email": "dspsupport@dreamfactory.com",
+                "source": "https://github.com/dreamfactorysoftware/df-firebird",
+                "issues": "https://github.com/dreamfactorysoftware/df-firebird/issues",
+                "wiki": "https://wiki.dreamfactory.com"
+            },
             "time": "2019-07-16T11:20:04+00:00"
         },
         {
@@ -2127,18 +2127,17 @@
                     "DreamFactory\\Core\\SqlDb\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
             "authors": [
                 {
-                    "name": "Lee Hicks",
-                    "email": "leehicks@dreamfactory.com"
-                },
-                {
                     "name": "Arif Islam",
                     "email": "arifislam@dreamfactory.com"
+                },
+                {
+                    "name": "Lee Hicks",
+                    "email": "leehicks@dreamfactory.com"
                 }
             ],
             "description": "The DreamFactory(tm) SQL DB Service.",
@@ -2155,6 +2154,12 @@
                 "sql",
                 "sqlserver"
             ],
+            "support": {
+                "email": "dspsupport@dreamfactory.com",
+                "source": "https://github.com/dreamfactorysoftware/df-sqldb",
+                "issues": "https://github.com/dreamfactorysoftware/df-sqldb/issues",
+                "wiki": "https://wiki.dreamfactory.com"
+            },
             "time": "2019-07-18T13:06:59+00:00"
         },
         {
@@ -2285,20 +2290,20 @@
         },
         {
             "name": "dreamfactory/df-user",
-            "version": "0.14.2",
+            "version": "0.14.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-user.git",
-                "reference": "cfa36ba4b086e116644fdafdd72a97adea47d598"
+                "reference": "734de328b2fd83a9f0fc3260a03961958ca6d040"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-user/zipball/cfa36ba4b086e116644fdafdd72a97adea47d598",
-                "reference": "cfa36ba4b086e116644fdafdd72a97adea47d598",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-user/zipball/734de328b2fd83a9f0fc3260a03961958ca6d040",
+                "reference": "734de328b2fd83a9f0fc3260a03961958ca6d040",
                 "shasum": ""
             },
             "require": {
-                "dreamfactory/df-core": "~0.15.1",
+                "dreamfactory/df-core": "~0.15.2",
                 "dreamfactory/df-system": "~0.2.1"
             },
             "type": "library",
@@ -2335,7 +2340,7 @@
                 "dreamfactory",
                 "user"
             ],
-            "time": "2019-07-18T18:05:00+00:00"
+            "time": "2019-10-07T13:56:51+00:00"
         },
         {
             "name": "dreamfactory/installer",
